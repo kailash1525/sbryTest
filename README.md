@@ -3,9 +3,13 @@
 STEPS TO RUN / TEST JAVA PROGRAM VIA CONSOLE
 ============================================
 
-Navigate to project source file root directory (all command should be executed from this directory):
+Clone the repository from local console, issue the below command
 
-sbryTest/src
+git clone https://github.com/kailash1525/sbryTest.git
+
+Once cloning completed, navigate to project source file root directory (all command should be executed from this directory):
+
+cd sbryTest/src
 
 NOTE : All dependencies of the program are included in the commands. So, we just simply have to run the below commands.
 
