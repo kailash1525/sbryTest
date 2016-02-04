@@ -1,6 +1,7 @@
 package com.sbry.testsrc;
 
-import com.sbry.WebScrapper;
+import com.sbry.controller.WebScrapperController;
+import com.sbry.dto.ProductData;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -12,7 +13,7 @@ import static org.junit.Assert.*;
  */
 public class WebScrapperTest {
 
-    private final WebScrapper webScrapperImpl = new WebScrapper();
+    private final WebScrapperController webScrapperImpl = new WebScrapperController();
 
     @Test
     public void test() throws Exception {
@@ -26,7 +27,7 @@ public class WebScrapperTest {
         assertTrue(webScrapperImpl.resultData.getResults().size() > 0);
         assertNotNull(webScrapperImpl.resultData.getTotal());
 
-        for (WebScrapper.ProductData productData : webScrapperImpl.resultData.getResults()){
+        for (ProductData productData : webScrapperImpl.resultData.getResults()){
             assertNotNull(productData.getTitle());
             assertNotNull(productData.getDescription());
             assertNotNull(productData.getSize());

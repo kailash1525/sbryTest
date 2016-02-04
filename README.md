@@ -13,18 +13,18 @@ cd sbryTest/src
 
 NOTE : All dependencies of the program are included in the commands. So, we just simply have to run the below commands.
 
-Built using Java Version - 1.7 +
+Built using Java Version - 1.8
 
 
 Compile Java program :
 =======================
 
-javac  -cp ".:com/sbry/lib/gson-2.3.1.jar:com/sbry/lib/jsoup-1.8.3.jar:com/sbry/lib/commons-lang3-3.4.jar" com/sbry/WebScrapper.java
+javac  -cp ".:com/sbry/lib/gson-2.3.1.jar:com/sbry/lib/jsoup-1.8.3.jar:com/sbry/lib/commons-lang3-3.4.jar" com/sbry/controller/WebScrapperController.java
 
 Run Java Program :
 ==================
 
-java  -cp ".:com/sbry/lib/gson-2.3.1.jar:com/sbry/lib/jsoup-1.8.3.jar:com/sbry/lib/commons-lang3-3.4.jar" com/sbry/WebScrapper
+java  -cp ".:com/sbry/lib/gson-2.3.1.jar:com/sbry/lib/jsoup-1.8.3.jar:com/sbry/lib/commons-lang3-3.4.jar" com/sbry/controller/WebScrapperController
 
 The above command will display the JSON String result (as per requirement) in the console.
 
