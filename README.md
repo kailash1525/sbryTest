@@ -10,7 +10,7 @@ Built using Java Version - 1.8
 Get the repo :
 ==============
 
-Clone the repository from github, issue the below command
+Clone the repository from github to your preferred directory, issue the below command
 
 ```
 git clone https://github.com/kailash1525/sbryTest.git
